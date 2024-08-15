@@ -8,16 +8,17 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
-<input type="text" id="inputBox"/>
-<button onclick="Add(this)">Add</button>
+<body onload="OnLoad(this)">
+    <div class="tittle">
+        My Shopping List
+    </div>
+    <div>
+
+        <input type="text" id="inputBox"/>
+        <button onclick="Add(this)">Add</button>
+    </div>
 <ul id="list">
-    <!-- <li>
-        Bread
-        <button onclick="remove(this)">x</button>
-    </li> -->
 </ul>
 
-    
 </body>
 </html>
